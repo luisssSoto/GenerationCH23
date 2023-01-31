@@ -1,0 +1,15 @@
+/*Rule of view*/
+h4{color: blueviolet;}
+/*h4 is Selector*/
+/*color: is Propiedad*/
+/*red: is the Value of Propiedad*/
+
+/*Extern Style*/
+h1{
+    text-align: center;
+    background-color: beige;
+}
+h2{
+    font-size: xx-large;
+    color: aqua;
+}
