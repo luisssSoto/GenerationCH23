@@ -1,0 +1,14 @@
+#identificator{
+    color: yellow;
+    font-size: 40px;
+}
+.class{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: gray;
+    color: bisque;
+}
+div{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,12 @@
+main{
+    font-size: 30px;
+}
+h1{
+    color: aquamarine;
+}
+#identificator{
+    font-family: fantasy;
+    background-color: violet;
+    align-self: center;
+    color: blue;
+}
