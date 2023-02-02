@@ -1,0 +1,15 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead{
+    background-color: #5D3891
+}
+tbody{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tfoot{
+    background-color: #F99417;
+}
