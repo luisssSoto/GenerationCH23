@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación</title>
+</head>
+
+<body>
+    <h1>Reservación de Viaje</h1>
+    <h2>Fecha de Viaje</h2>
+    <form>
+        Fecha y hora de salida:
+        <br>
+        <input type="date" name="FechaSalida">
+        <input type="time">
+    </form>
+    <br>
+    <form>
+        Fecha y hora de regreso:
+        <br>
+        <input type="date" name="FechaRegreso">
+        <input type="time">
+    </form>
+    <h2>Quien Reserva</h2>
+    <form>
+        <p>Nombre:</p>
+        <input type="text" , name="Nombres">
+        <p>Apellidos:</p>
+        <input type="text" , name="Apellidos">
+        <p></p>
+    </form>
+    <h2>Pasajeros</h2>
+    <form> Número de Pasajeros:
+        <input type="number" name="quantity" min="1" max="30">
+    </form>
+    <h2>Quienes Viajan</h2>
+    <form>
+        <input type="checkbox" name="Adultos" value="Adultos"> Adultos
+        <input type="checkbox" name="Niños" value="Niños"> Niños
+    </form>
+    <h2>Rango de Edades</h2>
+    <form>
+        <form id="form1" name="form1" method="post" action="consultar.php">
+            Edad:<input type="range" max="100" min="5" name="edad" id="edad" />
+        </form>
+        <h2>Información de Contacto</h2>
+    </form>
+    <br>
+    <form>
+        Teléfono:<br>
+        <input type="text" name="firstname"><br>
+        Correo Electrónico:<br>
+        <input type="text" name="lastname">
+    </form>
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+    <style>
+        form {
+            /* Centrar el formulario en la página */
+            margin: 0 auto;
+            width: 400px;
+            /* Esquema del formulario */
+            padding: 1em;
+            border: 1px solid #CCC;
+            border-radius: 1em;
+        }
+    </style>
+
+</body>
+
+</html>
