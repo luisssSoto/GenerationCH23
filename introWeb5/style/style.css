@@ -1,0 +1,59 @@
+/*tags style*/
+body{
+    font-family: 'Comics Sans', 'Tahoma', 'Arial';
+    font-weight: 10;
+    font-size: 10px;
+    color: #363636;
+    background-color: #ededed;
+}
+/*header*/
+h1{
+    text-transform: capitalize;
+    text-align: center;
+}
+h1 span{
+    color: coral;
+}
+/*id's style*/
+#photo-header{
+    text-align: center;
+    border-bottom-color: brown;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+}
+#photo img{
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 100px;
+}
+
+ /*class's style*/
+.container{
+    max-width: 800px;
+    background-color: rgb(23, 209, 147);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.menu ul{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    background-color: #363636;
+    color: #ededed;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+}
