@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <input type="button" onclick="alert('Message sent')" value="Go Ahead!">
+    </form>
+    <a href="#Birthday">Birthday</a>
+    <hr>
+    <a href="#Monthly">Choose whatever month you want</a>
+    <br><br>
+    <form action="">
+        <input type="checkbox" name="adult" id="adult" value="Are you 18?">Are you adult?
+    </form>
+    <form action="">
+        <p>Date since</p>
+        <input type="date" name="school" max="1980-12-31">   start </input>
+        <p>Today's day</p>
+        <input type="date" name="school" min="2000-12-31">   end </input>
+    </form>
+    <form action="">
+        <input type="email" name="mail">What's your email address</input>
+    </form>
+    <br><br><br><br>
+    <p>Birthday</p>
+    <a name="Birthday"></a>
+    <form action="">
+        <input type="date">What's your birthday</input>
+    </form>
+
+    <form action="">
+        <input type="image" onclick="alert('You are already part of us, Welcome to Generation!')" id="generation" alt="Login break link" src="./generation.png" >
+    </form>
+    <br><br><br>
+
+    <p><strong>Which Mont do you prefer? </strong></p>
+    <a name="Monthly"></a>
+    <form action="">
+        <input type="month" name="monthly"><b>Press to type a Month</b></input>
+    </form>
+    <br><br><br><br>
+
+    <p><b>How old are you?</b></p>
+    <form action=""><input type="number" name="number" id="n" min="18" max="100">
+    </form>
+    <hr>
+
+    <p><b>Gender</b></p>
+    <form action="" onclick="alert('Wow I did not know it')">
+        <input type="radio" name="gender" value="male">Sr <br>
+        <input type="radio" name="gender" value="female">Ms <br>
+        <input type="radio" name="gender" value="other">Person <br>
+    </form>
+    <br>
+    <hr>
+    <form action="">
+        <b>Name:</b>
+        <input type="text" name="firstName">
+        <br>
+        <b>lastName</b>
+        <input type="text" name="lastName" id="1">
+        <br>
+        <input type="submit" name="send" id="s" value="send">
+    </form>
+
+    <form action=""></form>
+</body>
+</html>
