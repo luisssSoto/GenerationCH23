@@ -1,0 +1,13 @@
+h1{
+    font-size: 100px;
+    font-family: Haettenschweiler;
+    background-color: whitesmoke;
+    color: rgb(32, 105, 145);
+}
+
+button{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
