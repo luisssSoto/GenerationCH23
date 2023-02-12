@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario con JS</title>
+</head>
+<body>
+    <form id="formulario">
+        Name: <input type="text" name="name" value="What's your name:" />
+        <br/>
+        LastName: <input type="text" name="lastName" value="What's your last name:"/>
+        <br/>
+    </form>
+    <button onclic="showInformation()">Show the information</button>
+
+    <div id="values"></div>
+    <script>
+        function showInformation(){
+            let fo=document.forms["formulario"];
+            let tex=" ";
+            let nombre=fo['name'];
+            let apellido=fo['lastName'];
+            tex=nombre.value + '<br/>' + apellido.value;
+            document.getElementById("values").innerHTML=tex;
+        }
+    </script>
+    
+</body>
+</html>
