@@ -8,3 +8,4 @@ function finalSection(){
     document.URL
 }
 
+let b=document.getElementById("buttonAction").innerHTML;
