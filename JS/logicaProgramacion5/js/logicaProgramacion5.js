@@ -17,9 +17,9 @@
 // Para ayudarte puedes desarrollar un algoritmo y el pseudocódigo.
 
 
-var numberSecret=parseInt(prompt("Escoge un numero secreto: "));
-var num1=parseInt(prompt("Adivina en que numero estoy pensando del 1 al 100: "));
-var isNum=Number.isInteger(num1);
+let numberSecret=parseInt(prompt("Escoge un numero secreto: "));
+let num1=parseInt(prompt("Adivina en que numero estoy pensando del 1 al 100: "));
+let isNum=Number.isInteger(num1);
 alert(isNum);
 
 while(isNum===false){
