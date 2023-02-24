@@ -4,9 +4,8 @@ function changeName(){
     document.getElementById("title").innerHTML= "Hello " + name;
 }
 
-<<<<<<< Js04
+//Js04
 let b=document.getElementById("buttonAction").innerHTML;
 
 
- main
->>>>>>>>
+//main
