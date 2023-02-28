@@ -1,0 +1,126 @@
+package tiposDeDatosYVariables;
+import java.util.Scanner;
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Ejercicio 1
+		Declara 3 variables de tipo entero y utiliza el operador * y %<*/
+		
+		int var1 = 1;
+		int var2 = 2;
+		int var3 = 3;
+		int resultado1=var1*var2;
+		int resultado2=var3%var2;
+		
+		System.out.println("Resultado de multiplicacion: " + var1 + "*" + var2 + " = " + resultado1);
+		System.out.println("Resultado de modulo: " + var3 + "%" + var2 + " = " + resultado2);
+		
+		/*Ejercicio 2
+		Declara dos variables de tipo boolean y utiliza el operador ==*/
+		
+		boolean varTrue = true;
+		boolean varFalse = false;
+		
+		if(varTrue == true) {
+			System.out.println("Es verdad");
+		}
+		else{
+			System.out.println("Es mentira");
+		}
+		
+		boolean trueOrFalse = varTrue == varFalse;
+		System.out.println(trueOrFalse);
+		
+		
+		/*Ejercicio 3
+		Declara dos variables de tipo Double y utiliza el operador < */ 
+		
+		double varDouble1 = 3.1416;
+		double varDouble2 = 9.81;
+		boolean esMenor = varDouble1 < varDouble2;
+		boolean esMayor = varDouble1 > varDouble2;
+		
+		System.out.println(esMenor);//true
+		System.out.println(esMayor);//false
+
+		int varA=1;
+		int varB=0;
+		//boolean varATrue=Boolean.parseBoolean(varA);
+		//boolean titoCamotito = varA=true; 
+		System.out.println();
+		
+		//Ejercicio 4
+		Scanner sn1 = new Scanner(System.in);
+		System.out.println("Introduce Farenheit's degrees: ");
+		float farenheitDegrees = sn1.nextFloat();
+		double kelvinToFarenheit = farenheitDegrees * 255.928;
+		System.out.println("Farenheit into Kelvin is: " + kelvinToFarenheit);
+		
+		//Ejercicio 5 Par o Impar
+		Scanner sn2 = new Scanner(System.in);
+		System.out.println("Let me know any number you want: ");
+		int num1 = sn2.nextInt();
+		String even = "Even number";
+		String odd = "Odd number";
+		String evenOrOdd = (num1 % 2 == 0) ? even : odd;
+		System.out.println(evenOrOdd);
+		
+		
+//¿Es un número positivo y menor que 10?
+		int numero = 7;
+		boolean esPositivoYMenorQue10 = numero > 0 && numero < 10;
+		System.out.println(esPositivoYMenorQue10); // salida: true
+
+//En este ejemplo, se tiene una variable numero de tipo int que contiene el valor 7. 
+//La variable esPositivoYMenorQue10 utiliza los operadores lógicos && (AND) para evaluar si el 
+//número es mayor que cero y menor que 10. Como ambas condiciones se cumplen, la respuesta es true.
+
+
+//¿Es un número par o múltiplo de 3?
+		numero = 9;
+		boolean esParOMultiploDe3 = numero % 2 == 0 || numero % 3 == 0;
+		System.out.println(esParOMultiploDe3); // salida: true
+
+//En este ejemplo, se tiene una variable numero de tipo int que contiene el valor 9. 
+//La variable esParOMultiploDe3 utiliza los operadores lógicos || (OR) para evaluar si el número es par o múltiplo de 3. 
+//Para determinar si es par, se utiliza el operador % (módulo) para obtener el resto de la división entre el número y 2. 
+//Si el resto es cero, significa que el número es par. Para determinar si es múltiplo de 3, se utiliza el operador % para obtener el resto de la división entre el número y 3. Si el resto es cero, significa que el número es múltiplo de 3. Como el número 9 es múltiplo de 3, la respuesta es true.
+
+				    
+//¿Es un número negativo o igual a cero?
+		
+
+		numero = 0;
+		boolean esNegativoOIgualACero = numero <= 0;
+		System.out.println(esNegativoOIgualACero); // salida: true
+
+//En este ejemplo, se tiene una variable numero de tipo int que contiene el valor 0. 
+//La variable esNegativoOIgualACero utiliza el operador lógico <= (menor o igual que) 
+//para evaluar si el número es negativo o igual a cero. Como el número es igual a cero, 
+//la respuesta es true.
+
+
+//Verificar si un número es par y positivo:
+		int num = 6;
+		if (num % 2 == 0 && num > 0) {
+			System.out.println("El numero es positivo y par");
+		}
+		else {
+			System.err.println("El numero O no es par O no es positivo");
+		}
+
+//Verificar si un número está dentro de un rango específico
+		num = 10;
+		String isBetween = (num > 0 && num <= 10)?"Is in the range": "Is outside the range";
+		System.out.println(isBetween);
+
+//Verificar si una cadena es igual a otra o no
+	String cadena1 = "Hola";
+	String cadena2 = "Hola";
+	
+	System.out.println(cadena1.equals(cadena2)); 
+	
+	}
+
+}

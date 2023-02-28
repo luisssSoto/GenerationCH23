@@ -17,5 +17,11 @@ public class EjecutarNH {
 		
 		NuevoHola nh1=new NuevoHola(nombre);
 		
+		Scanner sn2 = new Scanner(System.in);
+		System.out.println("Dame un numero");
+		int num1;
+		num1=sn2.next();
+		
 	}
+	
 }
