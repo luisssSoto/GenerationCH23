@@ -1,0 +1,29 @@
+package tiposDeDatosYVariables;
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Ejercicio 1
+		Declara 3 variables de tipo entero y utiliza el operador * y %<*/
+		
+		int var1 = 1;
+		int var2 = 2;
+		int var3 = 3;
+		int resultado1=var1*var2;
+		int resultado2=var3%var2;
+		
+		System.out.println("Resultado de multiplicacion: " + var1 + " " + var2 + " = " + resultado1);
+		System.out.println("Resultado de modulo: " + var3 + " " + var2 + " = " + resultado2);
+		
+		/*Ejercicio 2
+		Declara dos variables de tipo boolean y utiliza el operador ==
+
+		Ejercicio 3
+		Declara dos variables de tipo Double y utiliza el operador*/ 
+		
+		
+
+	}
+
+}

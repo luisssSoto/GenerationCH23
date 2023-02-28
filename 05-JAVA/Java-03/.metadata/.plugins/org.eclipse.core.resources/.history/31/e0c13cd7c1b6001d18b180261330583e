@@ -1,0 +1,37 @@
+package tiposDeDatosYVariables;
+
+public class tiposDeDatosYVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte centigrados = 1;
+        double fahrenheit = (centigrados * 1.8) + 32;
+        double kelvin = centigrados + 273.15;
+
+        System.out.println("1 centigrado a fahrenheit es" + fahrenheit);
+
+        System.out.println("1 centigrado a kelvin es" + kelvin);
+
+        /*
+         * ºF = ºC x 1.8 + 32 formula para convertir grados centigrados a fahrenheit K =
+         * ºC + 273.15
+         */
+        
+        byte horasTrabajadas = 8;
+        byte pago = 10;
+        int multiplicacionv = horasTrabajadas * pago;
+        System.out.println("El pago del empleado es: " + multiplicacionv);
+        
+        
+        double doubleNum = 1.61;
+        System.out.println(doubleNum);
+        int intNum = (int)doubleNum;
+        System.out.println(intNum);
+        long longNum = (long)doubleNum;
+        System.out.println(longNum);
+        
+        
+    }
+
+	}
+
