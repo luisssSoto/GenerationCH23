@@ -5,8 +5,6 @@ public class Fecha {
 	private int mes = 0;
 	private int anio = 0;
 	
-	
-	
 	public Fecha(int dia, int mes, int anio) {
 		super();
 		this.dia = dia;
@@ -18,6 +16,10 @@ public class Fecha {
 		
 	}
 	
+	@Override
+	public String toString() {
+		return "Fecha [dia=" + dia + ", mes=" + mes + ", anio=" + anio + "]";
+	}
 	public void imprimir() {
 		System.out.println("La fecha del dia de hoy es: " + this.dia + " " + this.mes + " " + this.anio);
 	}
