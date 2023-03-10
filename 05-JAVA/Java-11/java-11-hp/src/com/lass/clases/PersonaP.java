@@ -6,7 +6,6 @@ public class PersonaP {
 	
 	
 	public PersonaP(String nombre, int edad) {
-		super();
 		this.nombre = nombre;
 		this.edad = edad;
 	}
@@ -36,6 +35,7 @@ public class PersonaP {
 	public String toString() {
 		return "PersonaP [nombre=" + nombre + ", edad=" + edad + "]";
 	}
+
 	
 	
 	
