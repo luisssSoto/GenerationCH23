@@ -4,9 +4,9 @@ public class AlumnoB extends PersonaP{
 	private int matricula;
 	private double promedio;
 	
-	
-	public AlumnoB(int matricula, double promedio) {
-		
+
+	public AlumnoB(String nombre, int edad, int matricula, double promedio) {
+		super(nombre, edad);
 		this.matricula = matricula;
 		this.promedio = promedio;
 	}
@@ -37,6 +37,12 @@ public class AlumnoB extends PersonaP{
 		return "AlumnoB [matricula=" + matricula + ", promedio=" + promedio + "]";
 	}
 	
+	public void mostrarDatos() {
+		System.out.println(getNombre() + " " + getEdad() + " " + getMatricula() + " " + getPromedio());
+	}
 	
+	public void mostrarDatos(String apellido) {
+		System.out.println(getNombre() + " " + apellido + " " + getEdad() + " " + getMatricula() + " " + getPromedio());
+	}
 
 }
