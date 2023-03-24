@@ -9,5 +9,7 @@ import com.generation.cohorte23.jpa.models.UsuarioModel;
 
 @Repository
 public interface UsuarioRepositorio extends CrudRepository<UsuarioModel, Long>{
-	public ArrayList<UsuarioModel> busquedaPorPrioridad(Integer prioridad);
+    
+    public ArrayList<UsuarioModel> findByPrioridad (Integer prioridad);
+
 }
