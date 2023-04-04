@@ -24,7 +24,7 @@ public class Producto {
 	private String nombre;
 	private String descripcion;
 	private String uRLImagen;
-	private double precio;
+	private Double precio;
 	
 	
 	
